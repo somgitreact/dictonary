@@ -36,6 +36,7 @@ setDefinition(result[0].meaning)
   return (
     <>
       <section id="center">
+        <h1>Dictionary App</h1>
         <div style={{display:'flex'}}>
         <input type='text' onChange={(e)=>setWordD(e.target.value)} value={wordD} /> <button onClick={searchword}>Search</button>
         </div>
